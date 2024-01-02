@@ -29,3 +29,5 @@ function moreZeros(s){
   let uniq = new Set(chars);
   return String.fromCharCode(...Array.from(uniq)).split('')
 }
+
+// or
