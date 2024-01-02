@@ -31,3 +31,11 @@ function moreZeros(s){
 }
 
 // or
+
+function moreZeros(s){
+  return [...new Set([...s].filter((qure)=>{
+     let f=qure.charCodeAt(0).toString(2).replace(new RegExp('0','g'),'').length,
+         g=qure.charCodeAt(0).toString(2).replace(new RegExp('1','g'),'').length;
+     return g>f
+  }))]
+}
