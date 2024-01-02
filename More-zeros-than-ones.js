@@ -19,3 +19,6 @@ Examples:
 All input will be valid strings of length > 0. 
 Leading zeros in binary should not be counted.
 */
+
+
+// Solution
